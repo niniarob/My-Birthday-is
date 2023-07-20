@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: "Red Hat Text", sans-serif;
+    background-color: hsl(235, 16%, 14%);
+}
+ul{
+   list-style-type: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+.countdown div{
+    margin: 10px;
+}
+.countdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.countdown p{
+    color: hsl(345, 95%,68%);
+    padding: 20px;
+    font-size:  46px;;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 5px;
+}
+.container h3{
+    color: hsl(237, 18%,59%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+.container h1{
+    color: white;
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.socials{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.socials ul{
+    display: flex;
+}
+.socials ul li {
+    margin: 0 20px;
+}
+.stars{
+    width: 100%;
+    position: absolute;
+}
+.stars img{
+    width: 100%;
+}
+.hills{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.hills img{
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
